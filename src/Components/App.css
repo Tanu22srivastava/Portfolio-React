@@ -37,11 +37,12 @@ background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); */
   width: 100%;
   padding: 20px 100px;
   background: rgba(255, 255, 255, .1);
+  background: #0F2027;
   display: flex;
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(10px);
-  border-bottom: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 4px solid rgba(255, 255, 255, .2);
   z-index: 2;
 }
 
@@ -110,13 +111,16 @@ background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); */
     left: 0;
     width: 100%;
     padding: 0.5rem 4%;
-    background: rgba(255, 255, 255, .1);
+    /* background: rgba(255, 255, 255, .4); */
+    background: #0F2027;
+    border-bottom: 2px solid rgba(255, 255, 255, .2) ;
     display: flex;
     flex-direction: column;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     display: none;
     transition: .5s;
   }
+ 
 
   .navbar.active {
     display: flex;
@@ -135,6 +139,7 @@ background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%); */
     /* Add other necessary st;
     /* Add other necessary styles for the tags class here */
   }
+  
 
 
 }

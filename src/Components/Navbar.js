@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
 
+
 function Navbar() {
   const [menuIconClass, setMenuIconClass] = useState('bx bx-menu');
   const [navbarClass, setNavbarClass] = useState('navbar');
+  
 
   const handleMenuIconClick = () => {
     setMenuIconClass((prevClass) =>
@@ -13,6 +15,8 @@ function Navbar() {
     setNavbarClass((prevClass) =>
       prevClass.includes('active') ? 'navbar' : 'navbar active'
     );
+
+    
   };
 
   return (
@@ -27,7 +31,10 @@ function Navbar() {
         <a className="tags" href="#">Services</a>
         <a className="tags" href="#">Contact</a>
       </nav>
+      
     </header>
+    
+    
   );
 }
 

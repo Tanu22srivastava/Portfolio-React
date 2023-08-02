@@ -8,12 +8,16 @@ import Contact from './Contact'
 import Footer from './Footer'
 
 
+
+
 function App() {
   return (
     <>
 
     <Navbar/>
+    
       <Header/>
+      
       <Hero/>
       <ProjectsAndServices/>
       <Contact/>
